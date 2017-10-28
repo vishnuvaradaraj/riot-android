@@ -87,7 +87,7 @@ public class AccountCreationCaptchaActivity extends RiotBaseActivity {
 
         Intent intent = getIntent();
 
-        String homeServerUrl = "https://matrix.org/";
+        String homeServerUrl = "https://connect.parabay.com/";
 
         if (intent.hasExtra(EXTRA_HOME_SERVER_URL)) {
             homeServerUrl = intent.getStringExtra(EXTRA_HOME_SERVER_URL);
